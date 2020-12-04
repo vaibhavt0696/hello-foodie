@@ -1,0 +1,77 @@
+
+
+
+<div class="navbar custom-navbar navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- NAVBAR HEADER -->
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" (click)="openMenu()">
+                <span class="icon icon-bar"></span>
+                <span class="icon icon-bar"></span>
+                <span class="icon icon-bar"></span>
+            </button>
+            <!-- lOGO -->
+            <a [routerLink]="['/']" class="navbar-brand">Hello-Foodie</a>
+        </div>
+
+        <!-- MENU LINKS -->
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li ><a [routerLink]="['/']" class="smoothScroll">Home</a></li>
+                <li class="active"><a [routerLink]="['/about']" class="smoothScroll">About</a></li>
+                <li><a [routerLink]="['/shop']" class="smoothScroll">Order Now</a></li>
+                <li><a [routerLink]="['/contact-us']" class="smoothScroll">Contact Us</a></li>
+                <li><a [routerLink]="['/help']" class="smoothScroll">help</a></li>
+                <li><a href="http://localhost:4200/" class="smoothScroll">Sign IN</a></li>
+               
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+
+
+<section class="video-step">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-xl-12 col-sm-12 col-md-12 text-center">
+                <div class="page-title">
+                    <h1>About Us</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="cms-main">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3> Hello-Foodie has grown from a home project to one of the largest food aggregators in the world. We not only connect people to food in every context but work closely with restaurants to enable a sustainable ecosystem.
+                </h3>
+            </div>
+        </div>
+        <div class="row team-info">
+            <div class="col-md-3">
+               
+                <h3><b>Anoushka Yadav</b></h3>
+                <p class="w3-opacity">(Happy Customer)</p>
+                <p>"I have been using the Hello-Foodie online ordering service for about 2 years now. Business is up 14% this year and I credit our great food as well as your platform. Your customer service is outstanding as well.".</p>
+                <!--<p>
+                    <button class="mat-raised-button btn-lg">Contact</button>
+                </p>-->
+            </div>
+            <div class="col-md-3">
+               
+                <h3><b>Ishika</b></h3>
+                <p class="w3-opacity">(Happy Customer)</p>
+                <p>"It’s easy to use. And free, not like other platforms."</p>
+                <!--<p>
+                    <button class="mat-raised-button btn-lg">Contact</button>
+                </p>-->
+            </div>
+            
+        </div>
+    </div>
+</section>
